@@ -6,24 +6,25 @@ Graph Coloring Problem (GCP) using Genetic Algorithm
 
 ## Installation
 
-To run this script, you need Python installed on your system along with the `termcolor` module. You can install the necessary dependencies using the following commands:
+To run this code, you need Python installed on your system along with the `termcolor` module. You can install the necessary dependencies using the following commands:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/repository.git
+git clone https://github.com/NoureldinAyman/Graph-Coloring.git
 
 # Navigate into the project directory
-cd repository
+cd Graph-Coloring
 
 # Install dependencies
 pip install termcolor
+pip install customtkinter
 ```
 
 GraphColoringTerminal
 
 ## Overview
 
-The `GraphColoringTerminal.py` script implements a genetic algorithm to solve the graph coloring problem. The goal is to color the nodes of a graph such that no two adjacent nodes share the same color. The code uses a genetic algorithm to evolve a population of solutions towards an optimal or near-optimal coloring.
+The `GraphColoringTerminal.py` code implements a genetic algorithm to solve the graph coloring problem. The goal is to color the nodes of a graph such that no two adjacent nodes share the same color. The code uses a genetic algorithm to evolve a population of solutions towards an optimal or near-optimal coloring.
 
 ## Usage
 
@@ -147,7 +148,8 @@ graph = {
 
 ## GraphColoringGUI
 
-The same exact code as the GraphColoringTerminal but featuring a simple GUI to visualize the coloring side by side and to easily enter a custom graph.
+
+The same exact code as the GraphColoringTerminal but featuring a simple GUI made using CustomTkinter to visualize the coloring side by side and to easily enter a custom graph.
 
 ![App Screenshot](gui.jpg)
 

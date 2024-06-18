@@ -2,7 +2,7 @@
 
 Graph Coloring Problem (GCP) using Genetic Algorithm
 
-![App Screenshot](E:\github\GraphColoring\gui.jpg)
+![App Screenshot](gui.jpg)
 
 ## Installation
 
@@ -33,7 +33,7 @@ You can run the code directly from the command line:
 python GraphColoringTerminal.py
 ```
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](terminal.jpg)
 
 ## Main Components
 
@@ -149,7 +149,7 @@ graph = {
 
 The same exact code as the GraphColoringTerminal but featuring a simple GUI to visualize the coloring side by side and to easily enter a custom graph.
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](gui.jpg)
 
 ## Conclusion
 

@@ -33,8 +33,12 @@ You can run the code directly from the command line:
 ```bash
 python GraphColoringTerminal.py
 ```
+```bash
+python GraphColoringGUI.py
+```
 
 ![App Screenshot](terminal.jpg)
+Note: Population Size has to be more than 5 in the default implementation because the tournament size is set to 5. Feel free to change it to any value you want
 
 ## Main Components
 
@@ -150,6 +154,9 @@ graph = {
 
 
 The same exact code as the GraphColoringTerminal but featuring a simple GUI made using CustomTkinter to visualize the coloring side by side and to easily enter a custom graph.
+```bash
+python GraphColoringGUI.py
+```
 
 ![App Screenshot](gui.jpg)
 

@@ -36,9 +36,9 @@ python GraphColoringTerminal.py
 ```bash
 python GraphColoringGUI.py
 ```
+Note: Population Size has to be more than 5 in the default implementation because the tournament size is set to 5. Feel free to change it to any value you want
 
 ![App Screenshot](terminal.jpg)
-Note: Population Size has to be more than 5 in the default implementation because the tournament size is set to 5. Feel free to change it to any value you want
 
 ## Main Components
 
